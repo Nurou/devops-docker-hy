@@ -44,3 +44,23 @@ Result:
 ```
 Secret message is: 'You can find the source code here: https://github.com/docker-hy'
 ```
+
+## 1.4
+
+Command to run a ubuntu container:
+
+```
+docker run -it ubuntu
+```
+
+Install curl:
+
+```
+apt-get update; apt-get install curl
+```
+
+Run script:
+
+```
+sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+```
