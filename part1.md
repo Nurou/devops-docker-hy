@@ -64,3 +64,20 @@ Run script:
 ```
 sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
 ```
+
+## 1.5
+
+Done.
+
+## 1.6
+
+Commands
+
+```
+docker run -it devopsdockeruh/pull_exercise
+Give me the password: basics
+```
+
+Message:
+
+"This is the secret message"
