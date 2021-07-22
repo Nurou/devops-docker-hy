@@ -81,3 +81,15 @@ Give me the password: basics
 Message:
 
 "This is the secret message"
+
+## 1.7
+
+Commands
+
+```
+docker build . -t "web-server"
+docker run web-server
+
+```
+
+[Link to Dockerfile](1.7/Dockerfile)
