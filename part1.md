@@ -93,3 +93,15 @@ docker run web-server
 ```
 
 [Link to Dockerfile](1.7/Dockerfile)
+
+## 1.8
+
+Commands
+
+```
+docker build . -t "curler"
+docker run -it curler
+
+```
+
+[Link to Dockerfile](1.8/Dockerfile)
