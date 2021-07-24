@@ -105,3 +105,13 @@ docker run -it curler
 ```
 
 [Link to Dockerfile](1.8/Dockerfile)
+
+## 1.9
+
+Commands
+
+```
+touch text.log
+docker run -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service:alpin
+
+```
