@@ -112,6 +112,15 @@ Commands
 
 ```
 touch text.log
-docker run -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service:alpin
+docker run -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service
+
+```
+
+## 1.10
+
+Commands
+
+```
+docker run --rm -p 5000:8080 devopsdockeruh/simple-web-service server
 
 ```
