@@ -124,3 +124,30 @@ Commands
 docker run --rm -p 5000:8080 devopsdockeruh/simple-web-service server
 
 ```
+
+## 1.11
+
+Dockerfile contents
+
+```
+
+FROM openjdk:8
+
+EXPOSE 8080
+
+COPY . /usr/src/myapp
+
+WORKDIR /usr/src/myapp
+
+RUN ./mvnw package
+
+CMD java -jar ./target/docker-example-1.1.3.jar
+
+```
+
+Commands:
+
+```
+docker build . -t "spring-project"
+docker run -d --rm -p 5000:8080 spring-project
+```
