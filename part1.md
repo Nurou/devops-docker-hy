@@ -151,3 +151,18 @@ Commands:
 docker build . -t "spring-project"
 docker run -d --rm -p 5000:8080 spring-project
 ```
+
+## 1.12
+
+[Dockerfile](1.12/Dockerfile)
+
+## 1.13
+
+[Dockerfile](1.13/Dockerfile)
+
+Commands:
+
+```
+docker build . -t "example-be"
+docker run -p 8080:8080 example-be
+```
