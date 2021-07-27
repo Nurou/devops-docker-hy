@@ -166,3 +166,18 @@ Commands:
 docker build . -t "example-be"
 docker run -p 8080:8080 example-be
 ```
+
+## 1.14
+
+[Frontend Dockerfile](1.14/fe/Dockerfile)
+[Backend Dockerfile](1.14/be/Dockerfile)
+
+Commands:
+
+```
+docker build . -t "example-be"
+docker run -d -p 8080:8080 example-be
+
+docker build . -t "example-fe"
+docker run -d -p 5000:5000 example-fe
+```
