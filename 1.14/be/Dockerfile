@@ -1,0 +1,22 @@
+FROM golang:1.16
+
+WORKDIR /app
+
+ENV REQUEST_ORIGIN=http://localhost:5000
+
+COPY go.mod ./
+COPY go.sum ./
+RUN go mod download
+
+COPY . ./
+
+RUN go build -o /example-backend
+RUN go test ./...
+
+EXPOSE 8080
+
+
+CMD [ "/example-backend" ]
+
+
+
