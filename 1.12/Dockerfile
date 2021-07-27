@@ -12,5 +12,4 @@ RUN npm install -g serve
 
 EXPOSE 5000
 
-ENTRYPOINT [ "serve -s -l 5000 build" ]
-
+CMD serve -s -l 5000 build
