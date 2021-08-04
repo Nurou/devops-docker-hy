@@ -184,7 +184,7 @@ docker run -d -p 5000:5000 example-fe
 
 ## 1.15
 
-(Link to project)[https://hub.docker.com/repository/docker/joelhassan/pathfinder-vis]
+[Link to project](https://hub.docker.com/repository/docker/joelhassan/pathfinder-vis)
 
 The app exposes port 5000. Run the image with:
 
